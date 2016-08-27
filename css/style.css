@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  line-height: 1.6;
+  font-family: 'Lora', serif;
+}
+
+.header {
+  background-color: black;
+  background-image: url(../images/header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding:80px 0;
+  color:white;
+  }
+
+.container {
+  width:80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cta {
+  background-color: goldenrod;
+  text-decoration: none;
+  color:white;
+  padding: 20px;
+}
+
+.header p {
+  margin-bottom: 40px;
+}
+
+.food-options ul li {
+  width: 30%;
+  margin: 0 1%;
+  display: inline-block;
+}
+
+.food-options img {
+  max-width: 100%;
+  border: 3px solid goldenrod;
+  }
+
+.about {
+  background-color: black;
+  background-image: url(../images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  padding:80px 0;
+  color:white;
+}
+
+.profile-quote {
+  font-style: italic;
+}
+
+.profile-desc {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: black;
+  color:white;
+  padding: 40px 0;
+}
+
+.footer h4 {
+  margin-bottom: 30px;
+}
